@@ -14,6 +14,13 @@ public class Avengers {
 		for(String s : script) {
 			System.out.println(s);
 		}
+		
+		script = removeWhiteSpace(script);
+		
+		for(String s : script) {
+			System.out.println(s);
+		}
+		
 	}//end main()
 
 	//===================================================================================================================
@@ -40,4 +47,22 @@ public class Avengers {
 		
 		return result;
 	}//end readFile()
+	
+	//===================================================================================================================
+	
+	//Removes all empty lines in an arrayList
+	public static List<String> removeWhiteSpace(List<String> list) {
+		
+		List<String> newList = new ArrayList<>();
+		
+		//Adds the item from the old list to the new list so long as it is not equal to ""
+		for(String s : list) {
+			if(!s.equals(""))
+				newList.add(s);
+		}
+		
+		return newList;
+	}//end removeWhiteSpace
+	
+	//===================================================================================================================
 }//end Avengers.java
