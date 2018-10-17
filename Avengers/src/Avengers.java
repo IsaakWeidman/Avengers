@@ -6,6 +6,7 @@ public class Avengers {
 		
 		//Holds the script line by line
 		List<String> script;
+		List<String> lines;
 		
 		//Read in the script using the read in method
 		script = readFile(new File("AvengersScript.txt"));
@@ -15,9 +16,11 @@ public class Avengers {
 			System.out.println(s);
 		}
 		
-		script = removeWhiteSpace(script);
+		lines = removeWhiteSpace(script);
 		
-		for(String s : script) {
+		System.out.println("===========================================================================================");
+		
+		for(String s : lines) {
 			System.out.println(s);
 		}
 		
@@ -53,16 +56,16 @@ public class Avengers {
 	//Removes all empty lines in an arrayList
 	public static List<String> removeWhiteSpace(List<String> list) {
 		
+		//Remove empty lines and any unnecessary white space. (tabs before/after text, and spaces more than one lone)
+		//TODO remove extra whitespace from important lines
 		List<String> newList = new ArrayList<>();
 		
 		//Adds the item from the old list to the new list so long as it is not equal to ""
 		for(String s : list) {
-			if(!s.equals(""))
+			if(!s.isEmpty())
 				newList.add(s);
 		}
 		
 		return newList;
 	}//end removeWhiteSpace
-	
-	//===================================================================================================================
 }//end Avengers.java
