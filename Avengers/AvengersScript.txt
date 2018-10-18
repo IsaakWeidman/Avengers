@@ -14,10 +14,10 @@ THE AVENGERS
                          
           "And there came a day, a day unlike any other, when Earth's
           mightiest heroes and heroines found themselves united against a
-          common threat. On that day, the Avengers were born--to fight the
+          common threat. On that day, the Main.Avengers were born--to fight the
           foes no single superhero could withstand! Through the years,
           their roster has prospered, changing many times, but their glory
-          has never been denied! Heed the call, then--for now, the Avengers
+          has never been denied! Heed the call, then--for now, the Main.Avengers
           Assemble!"
 
           BURNING BLUE FLAMES. A smoky cube shape emerges - THE TESSERACT.
@@ -921,10 +921,10 @@ THE AVENGERS
            need a response team.
 
            WORLD SECURITY COUNCIL #1
-           The Avengers Initiative was shut down.
+           The Main.Avengers Initiative was shut down.
 
                           NICK FURY
-           This isn't about The Avengers.
+           This isn't about The Main.Avengers.
 
            WORLD SECURITY COUNCIL #1
            We're running the world's greatest
@@ -1296,11 +1296,11 @@ THE AVENGERS
            This isn't a consultation.
 
                           PEPPER
-           Is this about The Avengers? Which I...I
+           Is this about The Main.Avengers? Which I...I
            know nothing about.
 
                           TONY
-           The Avengers Initiative was scrapped, I
+           The Main.Avengers Initiative was scrapped, I
            thought. And I didn't even qualify.
 
                           PEPPER
@@ -5823,7 +5823,7 @@ THE AVENGERS
 
           EXT. CENTRAL PARK ­ DAY
 
-          The Avengers take Thor and Loki, who is handcuffed and muzzled,
+          The Main.Avengers take Thor and Loki, who is handcuffed and muzzled,
           to a blocked area. Thor shakes hands with his team and gives
           Selvig a hug. Tony opens the Tesseract's case.
           Banner takes it out and places inside a glass tube, held by
@@ -5839,7 +5839,7 @@ THE AVENGERS
           Fury is facing once more members of the WORLD SECURITY COUNCIL.
 
            WORLD SECURITY COUNCIL #3
-           Where are the Avengers?
+           Where are the Main.Avengers?
 
                           NICK FURY
            I'm not currently tracking their
@@ -5870,7 +5870,7 @@ THE AVENGERS
 
            WORLD SECURITY COUNCIL #1
            I don't think you understand what
-           you've started. Letting the Avengers
+           you've started. Letting the Main.Avengers
            loose on this world. They're dangerous.
 
                           NICK FURY
