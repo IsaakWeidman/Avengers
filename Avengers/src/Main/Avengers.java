@@ -1,3 +1,5 @@
+package Main;
+
 import java.io.*;
 import java.util.*;
 
@@ -7,6 +9,7 @@ public class Avengers {
 		//Holds the script line by line
 		List<String> script;
 		List<String> lines;
+		List<String> words;
 		
 		//Read in the script using the read in method
 		script = readFile(new File("AvengersScript.txt"));
@@ -16,11 +19,19 @@ public class Avengers {
 			System.out.println(s);
 		}
 		
+		System.out.println("===========================================================================================");
+		
 		lines = removeWhiteSpace(script);
+		
+		for(String s : lines) {
+			System.out.println(s);
+		}
 		
 		System.out.println("===========================================================================================");
 		
-		for(String s : lines) {
+		words = splitList(lines, "\\s\\,");
+		
+		for(String s : words) {
 			System.out.println(s);
 		}
 		
@@ -68,4 +79,21 @@ public class Avengers {
 		
 		return newList;
 	}//end removeWhiteSpace
-}//end Avengers.java
+	
+	//===================================================================================================================
+	
+	public static List<String> splitList(List<String> source, String pattern) {
+		
+		List<String> words = new ArrayList<>();
+		
+		Scanner scan;
+		
+		for(String s : source) {
+			scan = new Scanner(s).useDelimiter(pattern);
+			
+			words.add(scan.next());
+		}
+		
+		return words;
+	}
+}//end Main.Avengers.java
