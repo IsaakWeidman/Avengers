@@ -29,7 +29,9 @@ public class Avengers {
 		
 		System.out.println("===========================================================================================");
 		
-		words = splitList(lines, "\\s\\,");
+		//TODO split the script into individual words without punctuation.
+		
+		words = splitList(lines, "[^a-zA-Z]");
 		
 		for(String s : words) {
 			System.out.println(s);
@@ -68,7 +70,6 @@ public class Avengers {
 	public static List<String> removeWhiteSpace(List<String> list) {
 		
 		//Remove empty lines and any unnecessary white space. (tabs before/after text, and spaces more than one lone)
-		//TODO remove extra whitespace from important lines
 		List<String> newList = new ArrayList<>();
 		
 		//Adds the item from the old list to the new list so long as it is not equal to ""
@@ -84,14 +85,12 @@ public class Avengers {
 	
 	public static List<String> splitList(List<String> source, String pattern) {
 		
+		//TODO split each line of the source by the pattern provided.
 		List<String> words = new ArrayList<>();
-		
-		Scanner scan;
+		String[] splitWords;
 		
 		for(String s : source) {
-			scan = new Scanner(s).useDelimiter(pattern);
-			
-			words.add(scan.next());
+			splitWords = s.split(pattern);
 		}
 		
 		return words;
