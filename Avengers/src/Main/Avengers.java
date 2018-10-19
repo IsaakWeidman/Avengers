@@ -115,7 +115,7 @@ public class Avengers {
 		String[] associates = new String[];
 		int[] associateNum = new int[];
 		int count = 0;
-		int switcher = 0;
+		String associate = "";
 
 		for (int x = 0; x < source.size(); x++)
 		{
@@ -131,6 +131,10 @@ public class Avengers {
                             associates[associates.length] = source.get(x - 2);
                             associateNum[associates.length - 1] = 1;
                         }
+						if (associateNum[y] > count) {
+							associate = associates[y];
+							count = associateNum[y];
+						}
 					}
 				}
 				else if (source.get(x + 1).equalsIgnoreCase(connector))
@@ -143,9 +147,14 @@ public class Avengers {
 							associates[associates.length] = source.get(x + 2);
 							associateNum[associates.length - 1] = 1;
 						}
+						if (associateNum[y] > count) {
+							associate = associates[y];
+							count = associateNum[y];
+						}
 					}
 				}
 			}
 		}
+
 	}
 }//end Main.Avengers.java
